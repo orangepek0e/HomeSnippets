@@ -1,0 +1,141 @@
+<html>
+<title>HomeSnippets</title>
+<head>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="css/homeS.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> 
+
+</head>
+
+<div class="modal fade" tabindex="-1" role="dialog" data-toggle="modal" data-target="#myModal" id="register">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Register</h4>
+      </div>
+      <div class="modal-body">
+
+         <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+     <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
+        </div>
+   <div class="form-group">
+    
+    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="E-mail">
+  </div>
+
+    <div class="form-group">
+      <input type="password" class="form-control" id="examplePassword2" placeholder="Password">
+    </div>
+
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn register">Register</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" data-toggle="modal" data-target="#myModal" id="signin">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Sign In</h4>
+      </div>
+      <div class="modal-body">
+       <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+    <input type="text" class="form-control" id="exampleInputName2" placeholder="Name"><br>
+     <div class="form-group">
+    
+    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="E-mail">
+  </div>
+  <button type="button" class="btn sign">Sign In</button>
+  </div>
+        </div>
+         <div class="col-md-6 social">
+          <i class="fa fa-facebook-official fa-4x"></i>
+          <i class="fa fa-twitter-square fa-4x"></i>
+         </div>
+       </div>
+      </div>
+      
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img  alt="Brand" src="images/logo.png" height="auto" width="80px">
+      </a>
+
+    </div>
+    <a href="#"><button type="button" class="btn rbutton" data-toggle="modal" data-target="#register">Register</button></a>
+    <a href="#" ><button type="button" class="btn sbutton" data-toggle="modal" data-target="#signin">Sign in</button></a>
+  </div>
+
+</nav>
+
+
+<div class="separator"></div>
+
+
+<div class="container">
+<div class="row">
+
+
+<div class="col-md-6">
+<h1>HomeSnippets</h1><br>
+<h2>A new way to search and advertise places to rent.</h2><br>
+
+      <form class="form-horizontal">
+  <div class="form-group">
+    <div class="col-sm-1"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></div>
+    <div class="col-sm-9">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-1"> <span class="glyphicon glyphicon-lock" aria-hidden="true"></div>
+    <div class="col-sm-9">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      
+    </div>
+  </div>
+  <div class="form-group">
+    <div class=" col-sm-12">
+      <button type="submit" class="btn join">Join</button>
+    </div>
+  </div>
+</form>
+
+</div>
+
+<div class="col-md-6 phone">
+  <img  alt="Brand" src="images/iphone.png" height="auto" width="300px"> 
+
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
