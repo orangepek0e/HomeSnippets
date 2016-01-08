@@ -1,0 +1,169 @@
+
+body{
+	background-color: #0073CF !important;
+}
+.navbar-fixed-top{
+	background-color: #0073CF !important;
+	border: 1px solid  #0073CF;
+}
+
+h1{
+	font-family: roboto;
+	font-weight: medium;
+	color: #FED136;
+	font-size: 70px;
+	padding-bottom: 20px;
+	text-align: left;
+
+}
+
+h2{
+	font-family: roboto;
+	font-weight: lighter;
+	color: #FED136;
+	font-size: 50px;
+	padding-bottom: 40px;
+	text-align: left;
+}
+
+.navbar-btn{
+	float: right;
+	color: #FED136;
+	background-color: #0073CF;
+}
+
+#inputEmail3{
+	background-color: #2A689A !important;
+	border: 1px solid  #0073CF;
+	color: white;
+
+}
+#inputPassword3{
+	background-color: #2A689A !important;
+	border: 1px solid  #0073CF;
+	color: white;
+}
+
+.exampleInputName2{
+	background-color: white;
+	color: #2A689A;
+}
+.exampleInputEmail2{
+	background-color:white;
+	color: #2A689A;
+}
+#exampleInputName2{
+	background-color: white;
+	color: #2A689A;
+}
+#exampleInputEmail2{
+	background-color:white;
+	color: #2A689A;
+}
+#examplePassword2{
+	background-color: white;
+	color:#2A689A;
+}
+
+.separator{
+	padding-top: 150px;
+	background-color: #0073CF !important;
+}
+
+.rbutton{
+	width: auto;
+	background-color: #FED136;
+	color: #0073CF;
+	float: right;
+	margin-top: 15px;	
+
+}
+.rbutton:hover{
+	color: #0073CF;
+}
+.rbutton:focus{
+	color: #0073CF;
+}
+.sbutton{
+	width: auto;
+	background-color: #FED136;
+	color: #0073CF;
+	float: right;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+.sbutton:hover{
+	color:#0073CF;
+}
+.sbutton:focus{
+color:#0073CF;
+}
+.phone{
+	padding-left: 250px;
+	padding-top: 30px;
+	background-color: #0073CF;
+	height: auto;
+}
+
+.join{
+	width: 500px;
+	font-size: 40px;
+	background-color:  #FED136;
+	color: #0073CF;
+}
+.join:hover{
+	color: #0073CF;
+}
+
+.join:focus{
+	color: #0073CF;
+}
+.modal-title{
+	color: #0073CF;
+	text-align: center;
+	font-size: 30px;
+}
+.modal-body{
+	text-align: center;
+}
+i{
+	color: #2A689A;
+}
+.modal-footer{
+	text-align: center;
+}
+.glyphicon-lock{
+	padding-top: 10px !important;
+	color: #FED136;
+	padding-left: 20px;
+
+}
+.glyphicon-envelope{
+	padding-top: 10px !important;
+	color: #FED136;
+	padding-left: 20px;
+}
+.social{
+	padding-top: 26px;
+}
+.sign{
+	background-color:  #FED136;
+	color: #0073CF;
+}
+.sign:hover{
+	color: #0073CF;
+}
+.sign:focus{
+	color: #0073CF;
+}
+.register{
+	background-color:  #FED136;
+	color: #0073CF;
+}
+.register:hover{
+	color: #0073CF;
+}
+.register:focus{
+	color: #0073CF;
+}
