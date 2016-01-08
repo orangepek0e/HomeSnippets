@@ -25,6 +25,9 @@ h2{
 	padding-bottom: 40px;
 	text-align: left;
 }
+#logo{
+	margin-left: 10px;
+}
 
 .navbar-btn{
 	float: right;
@@ -58,7 +61,7 @@ h2{
 }
 
 .separator{
-	padding-top: 150px;
+	padding-top: 140px;
 	background-color: #0073CF !important;
 }
 
@@ -93,9 +96,9 @@ color:#0073CF;
 }
 .phone{
 	padding-left: 250px;
-	padding-top: 30px;
+	margin-bottom: 20px;
 	background-color: #0073CF;
-	height: auto;
+	
 }
 
 .join{
@@ -103,6 +106,7 @@ color:#0073CF;
 	font-size: 40px;
 	background-color:  #FED136;
 	color: #0073CF;
+	font-weight: bold;
 }
 .join:hover{
 	color: #0073CF;
@@ -137,11 +141,15 @@ i{
 	padding-left: 20px;
 }
 .social{
-	padding-top: 26px;
+	padding-bottom: 20px;
+
 }
+
 .sign{
 	background-color:  #FED136;
 	color: #0073CF;
+	text-align: center;
+
 }
 .sign:hover{
 	color: #0073CF;
@@ -158,4 +166,25 @@ i{
 }
 .register:focus{
 	color: #0073CF;
+}
+.glyphicon-user{
+	padding-top: 10px;
+	margin-left: 20px;
+	color:#0073CF;
+}
+#registerE{
+	color: #0073CF;
+	padding-right: 50px;
+
+}
+#lock{
+	color: #0073CF;
+}
+
+.navigation{
+
+}
+
+.searchbutton{
+	margin-right: 10px;
 }
