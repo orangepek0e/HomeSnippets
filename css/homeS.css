@@ -185,6 +185,75 @@ i{
 
 }
 
+.pull-right{
+	margin-top: 15px;
+}
+.dashbutton{
+	background-color: #FED136;
+	color: #0073CF;
+}
+.dashbutton:hover{
+	background-color:#FED136; 
+}
+.dashbutton:focus{
+	color: white;
+
+}
+.Postbutton{
+	background-color: #FED136;
+	color: #0073CF;
+}
 .searchbutton{
-	margin-right: 10px;
+	background-color: #FED136;
+	color: #0073CF;
+}
+.messagesbutton{
+	background-color: #FED136;
+	color: #0073CF;
+}
+.main{
+	background-color: white;
+	height: 400px;
+}
+.listings{
+	background-color: white;
+	border: 1px solid gray;
+	height: 100%;
+}
+.hotdeals{
+	background-color: white;
+	border: 1px solid gray;
+	height: 100%;
+}
+.favourites{
+	background-color: white;
+	border: 1px solid gray;
+	height: 100%;
+}
+.anything{
+	background-color: white;
+	border: 1px solid gray;
+	height: 100%;
+}
+.sociallinks{
+	background-color: #0073CF;
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.socialbuttons{
+	background-color: #FED136;
+	height: 40px;
+}
+.f{
+	margin-left: 30px;
+}
+.t{
+	margin-left: 30px;
+}
+.i{
+	margin-left: 30px;
+}
+.li{
+	margin-left: 30px;
 }
