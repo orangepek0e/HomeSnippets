@@ -247,3 +247,100 @@ i{
 .userInputFieldIcon{
 	width: 10%;
 }
+.social{
+	padding-bottom: 20px;
+
+}
+
+.sign{
+	background-color:  #FED136;
+	color: #0073CF;
+	text-align: center;
+
+}
+.sign:hover{
+	color: #0073CF;
+}
+.sign:focus{
+	color: #0073CF;
+}
+.register{
+	background-color:  #FED136;
+	color: #0073CF;
+}
+.register:hover{
+	color: #0073CF;
+}
+.register:focus{
+	color: #0073CF;
+}
+.glyphicon-user{
+	padding-top: 10px;
+	margin-left: 20px;
+	color:#0073CF;
+}
+#registerE{
+	color: #0073CF;
+	padding-right: 50px;
+
+}
+#lock{
+	color: #0073CF;
+}
+
+.navigation{
+
+}
+
+.pull-right{
+	margin-top: 15px;
+}
+.dashButton{
+	background-color: #FED136;
+	color: #0073CF;
+}
+.dashButton:hover{
+	background-color:#FED136;
+}
+.dashButton:focus{
+	color: white;
+
+}
+.postButton{
+	background-color: #FED136;
+	color: #0073CF;
+}
+.searchButton{
+	background-color: #FED136;
+	color: #0073CF;
+}
+.messagesButton{
+	background-color: #FED136;
+	color: #0073CF;
+}
+.main{
+	background-color: white;
+	height: 400px;
+}
+.socialLinks{
+	background-color: #0073CF;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.socialButtons{
+	background-color: #FED136;
+	height: 40px;
+}
+.f{
+	margin-left: 30px;
+}
+.t{
+	margin-left: 30px;
+}
+.i{
+	margin-left: 30px;
+}
+.li{
+	margin-left: 30px;
+}
