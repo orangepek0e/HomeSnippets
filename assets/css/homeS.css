@@ -160,22 +160,30 @@ color:#0073CF;
 
 .modal-body{
 	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 0 !important;
 }
+
 i{
 	color: #2A689A;
 }
+
 .modal-footer{
 	text-align: center;
 }
+
 .glyphicon-lock{
 	padding-top: 10px !important;
 	color: #FED136;
-	padding-left: 20px;
+
 
 }
 .glyphicon-envelope{
 	padding-top: 10px !important;
 	color: #FED136;
+}
+
+.registerIcon{
 	padding-left: 20px;
 }
 .social{
@@ -223,7 +231,7 @@ i{
 	margin-right: 10px;
 }
 .btnSignUp {
-	margin-top: 6%;
+	margin-top: 2%;
 	width: 40%;
 	height: 60px;
 }
