@@ -1,11 +1,3 @@
-@font-face {
-	font-family: "Roboto";
-	src: url(https://fonts.googleapis.com/css?family=Roboto);
-}
-@font-face {
-	font-family: "Roboto Slab";
-	src: url(https://fonts.googleapis.com/css?family=Roboto+Slab);
-}
 
 body{
 	background-color: #0073CF !important;
@@ -13,38 +5,28 @@ body{
 .navbar-fixed-top{
 	background-color: #0073CF !important;
 	border: 1px solid  #0073CF;
-	padding-right: 3%;
 }
 
-.frontPageContent{
-	margin-top: 4%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.frontPageTitle{
-	font-family: "Roboto";
-	font-size: 76px;
-	font-weight: 400;
+h1{
+	font-family: roboto;
+	font-weight: medium;
 	color: #FED136;
-	text-align: center;
+	font-size: 70px;
+	padding-bottom: 20px;
+	text-align: left;
 
 }
 
-.frontPageSubText{
-	font-family: "Roboto Slab";
-	font-size: 40px;
-	font-weight: 100;
+h2{
+	font-family: roboto;
+	font-weight: lighter;
 	color: #FED136;
+	font-size: 50px;
 	padding-bottom: 40px;
-	text-align: center;
+	text-align: left;
 }
-
-.joinButton{
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center
-;
+#logo{
+	margin-left: 10px;
 }
 
 .navbar-btn{
@@ -65,14 +47,6 @@ body{
 	color: white;
 }
 
-.exampleInputName2{
-	background-color: white;
-	color: #2A689A;
-}
-.exampleInputEmail2{
-	background-color:white;
-	color: #2A689A;
-}
 #exampleInputName2{
 	background-color: white;
 	color: #2A689A;
@@ -87,11 +61,11 @@ body{
 }
 
 .separator{
-	padding-top: 90px;
+	padding-top: 140px;
 	background-color: #0073CF !important;
 }
 
-.rButton{
+.rbutton{
 	width: auto;
 	background-color: #FED136;
 	color: #0073CF;
@@ -99,13 +73,13 @@ body{
 	margin-top: 15px;	
 
 }
-.rButton:hover{
+.rbutton:hover{
 	color: #0073CF;
 }
-.rButton:focus{
+.rbutton:focus{
 	color: #0073CF;
 }
-.sButton{
+.sbutton{
 	width: auto;
 	background-color: #FED136;
 	color: #0073CF;
@@ -114,22 +88,17 @@ body{
 	margin-right: 10px;
 }
 
-.sButton:hover{
+.sbutton:hover{
 	color:#0073CF;
 }
-.sButton:focus{
+.sbutton:focus{
 color:#0073CF;
 }
-
 .phone{
-	margin-left: 14%;
+	padding-left: 250px;
+	margin-bottom: 20px;
 	background-color: #0073CF;
-	height: auto;
-	width: 350px;
-}
-.frontText{
-	width: 50%;
-	margin-top: 4%;
+	
 }
 
 .join{
@@ -137,6 +106,7 @@ color:#0073CF;
 	font-size: 40px;
 	background-color:  #FED136;
 	color: #0073CF;
+	font-weight: bold;
 }
 .join:hover{
 	color: #0073CF;
@@ -145,19 +115,11 @@ color:#0073CF;
 .join:focus{
 	color: #0073CF;
 }
-.modal-dialog{
-	margin-top: 5%;
-}
-.modal-content{
-	background-color: ghostwhite;
-}
-
 .modal-title{
 	color: #0073CF;
 	text-align: center;
 	font-size: 30px;
 }
-
 .modal-body{
 	text-align: center;
 }
@@ -179,11 +141,15 @@ i{
 	padding-left: 20px;
 }
 .social{
-	padding-top: 26px;
+	padding-bottom: 20px;
+
 }
+
 .sign{
 	background-color:  #FED136;
 	color: #0073CF;
+	text-align: center;
+
 }
 .sign:hover{
 	color: #0073CF;
@@ -219,23 +185,6 @@ i{
 
 }
 
-.searchButton{
+.searchbutton{
 	margin-right: 10px;
-}
-.btnSignUp {
-	margin-top: 6%;
-	width: 40%;
-	height: 60px;
-}
-.userInput{
-	align-content: center;
-	text-align: center;
-}
-
-.userInputField{
-	width: 90%;
-}
-
-.userInputFieldIcon{
-	width: 10%;
 }
